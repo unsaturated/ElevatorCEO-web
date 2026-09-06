@@ -1,0 +1,222 @@
+{
+  "burner.png": {
+    "width": 115,
+    "height": 207
+  },
+  "chest1.png": {
+    "width": 64,
+    "height": 64
+  },
+  "chest2.png": {
+    "width": 64,
+    "height": 64
+  },
+  "chest3.png": {
+    "width": 64,
+    "height": 64
+  },
+  "chest4.png": {
+    "width": 64,
+    "height": 64
+  },
+  "chest5.png": {
+    "width": 64,
+    "height": 64
+  },
+  "circle-part.png": {
+    "width": 96,
+    "height": 96
+  },
+  "dialog.png": {
+    "width": 84,
+    "height": 84
+  },
+  "down-off-game.png": {
+    "width": 144,
+    "height": 144
+  },
+  "down-on-game.png": {
+    "width": 144,
+    "height": 144
+  },
+  "el-black-game.png": {
+    "width": 76,
+    "height": 104
+  },
+  "el-blue-game.png": {
+    "width": 76,
+    "height": 104
+  },
+  "el-green-game.png": {
+    "width": 76,
+    "height": 104
+  },
+  "el-red-game.png": {
+    "width": 76,
+    "height": 104
+  },
+  "el-red.png": {
+    "width": 170,
+    "height": 230
+  },
+  "fire.png": {
+    "width": 64,
+    "height": 64
+  },
+  "floor.png": {
+    "width": 472,
+    "height": 120
+  },
+  "game-menu-bar-off.png": {
+    "width": 472,
+    "height": 80
+  },
+  "game-menu-bar-on.png": {
+    "width": 472,
+    "height": 80
+  },
+  "game-over-bg.png": {
+    "width": 640,
+    "height": 1136
+  },
+  "heart.png": {
+    "width": 64,
+    "height": 64
+  },
+  "high-scores-bg.png": {
+    "width": 640,
+    "height": 1136
+  },
+  "intro-bg.png": {
+    "width": 640,
+    "height": 1136
+  },
+  "level-divider.png": {
+    "width": 476,
+    "height": 12
+  },
+  "lifebar.png": {
+    "width": 4,
+    "height": 16
+  },
+  "main-menu-bar-off.png": {
+    "width": 640,
+    "height": 80
+  },
+  "main-menu-bar-on.png": {
+    "width": 640,
+    "height": 80
+  },
+  "more-bg.png": {
+    "width": 640,
+    "height": 1136
+  },
+  "music-off.png": {
+    "width": 79,
+    "height": 79
+  },
+  "music-on.png": {
+    "width": 79,
+    "height": 79
+  },
+  "navbar-bg.png": {
+    "width": 160,
+    "height": 960
+  },
+  "no-radar-lock.png": {
+    "width": 52,
+    "height": 52
+  },
+  "noradar.png": {
+    "width": 64,
+    "height": 64
+  },
+  "pause.png": {
+    "width": 79,
+    "height": 79
+  },
+  "poof1.png": {
+    "width": 88,
+    "height": 88
+  },
+  "poof2.png": {
+    "width": 88,
+    "height": 88
+  },
+  "poof3.png": {
+    "width": 88,
+    "height": 88
+  },
+  "poof4.png": {
+    "width": 88,
+    "height": 88
+  },
+  "poof5.png": {
+    "width": 88,
+    "height": 88
+  },
+  "radar-blue.png": {
+    "width": 18,
+    "height": 18
+  },
+  "radar-green.png": {
+    "width": 18,
+    "height": 18
+  },
+  "radar-red.png": {
+    "width": 18,
+    "height": 18
+  },
+  "radar-score-bg.png": {
+    "width": 164,
+    "height": 305
+  },
+  "skull-black.png": {
+    "width": 64,
+    "height": 64
+  },
+  "sound-off.png": {
+    "width": 79,
+    "height": 79
+  },
+  "sound-on.png": {
+    "width": 79,
+    "height": 79
+  },
+  "swap.png": {
+    "width": 79,
+    "height": 79
+  },
+  "synergy.png": {
+    "width": 64,
+    "height": 64
+  },
+  "transfertime.png": {
+    "width": 24,
+    "height": 6
+  },
+  "transition.png": {
+    "width": 472,
+    "height": 1136
+  },
+  "treasure-scores.png": {
+    "width": 257,
+    "height": 174
+  },
+  "treasure.png": {
+    "width": 64,
+    "height": 64
+  },
+  "tutorial-bg.png": {
+    "width": 472,
+    "height": 182
+  },
+  "up-off-game.png": {
+    "width": 144,
+    "height": 144
+  },
+  "up-on-game.png": {
+    "width": 144,
+    "height": 144
+  }
+}

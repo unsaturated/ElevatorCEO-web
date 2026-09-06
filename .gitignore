@@ -3,6 +3,12 @@ node_modules/
 dist/
 scripts/.silent.m4a
 *.zip
+src/assets/sprites/*.png
+src/assets/audio/*.m4a
+public/favicons/*
+!public/favicons/.gitkeep
+public/icons/*
+!public/icons/.gitkeep
 
 # Windows
 Thumbs.db

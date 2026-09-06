@@ -1,0 +1,26 @@
+{
+  "name": "elevator-ceo-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "description": "Elevator CEO, ported from Objective-C/cocos2d-iphone to TypeScript/Babylon.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "placeholders": "node scripts/make-placeholder-assets.mjs"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5",
+    "vite-plugin-pwa": "^1.2.0",
+    "vitest": "^4.1.10"
+  }
+}
