@@ -29,13 +29,13 @@ public/
   favicons/            # gitignored; `npm run placeholders` or private overlay
 ```
 
-Replace placeholder PNGs and M4As with files of the same filenames**. `npm run dev` picks them up through `import.meta.glob`. Do not add real Elevator CEO sprites or audio to a public fork; those files are separately licensed and are not redistributable.
+Replace placeholder PNGs and M4As with files of the same filenames. `npm run dev` picks them up through `import.meta.glob`. Do not add real Elevator CEO sprites or audio to a public fork; those files are separately licensed and are not redistributable.
 
 ### Art
 Width and height in `frames.json` must match the pixel size of each PNG used in-game, otherwise HUD, elevators, and floors will be the wrong size. Remember to keep that file in sync when you replace sprites. `TextureCache` sizes quads from `frames.json` as opposed to decoding the image asset. The `width` / `height` are the actual pixel dimensions of the original artwork. The in-game positioning and sizing use half these values.
 
 ### Audio
-Each cue is found in `src/assets/audio/<name>.m4a`. Names, loop flags, and gains must match `src/audio/soundEffect.ts`; clip duration is not read and does not affect layout or sim timing.
+Each cue is found in `src/assets/audio/<name>.m4a`. File names must match the `file` values and `MUSIC_FILE` in `src/audio/soundEffect.ts`. Loop flags and gains are set in that code, not in the audio files. Clip duration is not read and does not affect layout or sim timing.
 
 ### Fonts
 Droid Sans (Apache-2.0) and League Gothic (OFL-1.1) ship in the `public/fonts/` folder. License text lives next to the `.woff2` files; see also the License section below.
