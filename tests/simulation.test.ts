@@ -417,6 +417,9 @@ describe("transfers", () => {
     });
 
     it("never lets two cars in a shaft occupy the same floor", () => {
+        // Assert once at the end: ~26k frames of per-frame expect() calls
+        // pushes this past the default timeout on CI runners.
+        const violations: string[] = [];
         for (const seed of [1, 31, 1234]) {
             const run = new Game(new SeededRandom(seed));
             run.newGame();
@@ -430,15 +433,21 @@ describe("transfers", () => {
                         }
                         const active = shaft.elevators.filter((el) => el.activeInGame);
                         const floors = active.map((el) => el.floor);
-                        expect(new Set(floors).size).toBe(floors.length);
+                        if (new Set(floors).size !== floors.length) {
+                            violations.push(`seed ${seed} level ${level} frame ${frame}: shared floor in [${floors}]`);
+                        }
                         for (const el of active) {
-                            expect(el.floor).toBeGreaterThanOrEqual(el.floorRangeMin);
-                            expect(el.floor).toBeLessThanOrEqual(el.floorRangeMax);
+                            if (el.floor < el.floorRangeMin || el.floor > el.floorRangeMax) {
+                                violations.push(
+                                    `seed ${seed} level ${level} frame ${frame}: elevator ${el.id} at ${el.floor} outside ${el.floorRangeMin}-${el.floorRangeMax}`,
+                                );
+                            }
                         }
                     }
                 }
             }
         }
+        expect(violations.slice(0, 10)).toEqual([]);
     });
 
     it("still settles after setTo interrupts a bounce", () => {
