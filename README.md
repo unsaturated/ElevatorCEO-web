@@ -1,4 +1,4 @@
-# Elevator CEO (web)
+# Elevator CEO Web
 Ported from [Elevator CEO](https://github.com/unsaturated/ElevatorCEO) into a TypeScript / Babylon.js web game. This repository is the GPL-3.0-or-later game code plus placeholder assets. Production graphics and audio live in a private sibling repository and are not committed here.
 
 ## Clone and Run
